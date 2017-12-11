@@ -1,0 +1,16 @@
+{
+  "name": "command-line-hangman",
+  "version": "1.0.0",
+  "description": "Command Line hangman program",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Platt",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "inquirer": "^4.0.1",
+    "is-letter": "^1.1.1"
+  }
+}
