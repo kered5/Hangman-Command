@@ -24,7 +24,7 @@ var hangman = {
     if(this.guessedLetters.length > 0){
       this.guessedLetters = [];
     }
-console.log("Welcome to Periodic Table Hangman".red +"\n");
+console.log("Welcome to Periodic Table Hangman".blue.bgWhite +"\n");
     inquirer.prompt([{
       name: "play",
       type: "confirm",
